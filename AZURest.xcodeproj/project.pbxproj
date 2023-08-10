@@ -71,6 +71,7 @@
 		871430B52A849C22007C1023 /* AZURest */ = {
 			isa = PBXGroup;
 			children = (
+				871430CD2A849CDA007C1023 /* Classes */,
 				871430B62A849C22007C1023 /* AZURest.h */,
 				871430B72A849C22007C1023 /* AZURest.docc */,
 			);
@@ -83,6 +84,13 @@
 				871430C22A849C22007C1023 /* AZURestTests.swift */,
 			);
 			path = AZURestTests;
+			sourceTree = "<group>";
+		};
+		871430CD2A849CDA007C1023 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
