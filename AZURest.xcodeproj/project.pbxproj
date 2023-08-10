@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0650D1133BF20494E3BC1B /* Pods_AZURest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC8120D5262EF46E3DCE913 /* Pods_AZURest.framework */; };
 		871430B82A849C22007C1023 /* AZURest.docc in Sources */ = {isa = PBXBuildFile; fileRef = 871430B72A849C22007C1023 /* AZURest.docc */; };
 		871430BE2A849C22007C1023 /* AZURest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871430B32A849C22007C1023 /* AZURest.framework */; };
 		871430C32A849C22007C1023 /* AZURestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871430C22A849C22007C1023 /* AZURestTests.swift */; };
 		871430C42A849C22007C1023 /* AZURest.h in Headers */ = {isa = PBXBuildFile; fileRef = 871430B62A849C22007C1023 /* AZURest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8721295A2A84C78100CFCFAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872129592A84C78100CFCFAF /* ViewController.swift */; };
 		874050002A849F8700B4D7E7 /* AZURest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87404FFF2A849F8700B4D7E7 /* AZURest.swift */; };
 		874050022A849FA600B4D7E7 /* AZURestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874050012A849FA600B4D7E7 /* AZURestError.swift */; };
-		E13DD94C82FB8E6F5D04FA38 /* Pods_AZURest_AZURestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4105FDD4D7043ED79E987F2F /* Pods_AZURest_AZURestTests.framework */; };
+		8765C4AE2A84C71B007606F9 /* AZURestExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765C4AD2A84C71B007606F9 /* AZURestExampleApp.swift */; };
+		8765C4B02A84C71B007606F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8765C4AF2A84C71B007606F9 /* ContentView.swift */; };
+		8765C4B22A84C71E007606F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8765C4B12A84C71E007606F9 /* Assets.xcassets */; };
+		8765C4B52A84C71E007606F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8765C4B42A84C71E007606F9 /* Preview Assets.xcassets */; };
+		B87C8B770BA22DACC9E75A30 /* Pods_AZURest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A70AD86FE2813F11BF919A /* Pods_AZURest.framework */; };
+		DEAC12EB44494FBB9921FBE5 /* Pods_AZURest_AZURestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0419E51FAF57707B471222FB /* Pods_AZURest_AZURestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,19 +33,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4105FDD4D7043ED79E987F2F /* Pods_AZURest_AZURestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZURest_AZURestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C318C5D656D23F47761AB9E /* Pods-AZURest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest.release.xcconfig"; path = "Target Support Files/Pods-AZURest/Pods-AZURest.release.xcconfig"; sourceTree = "<group>"; };
-		7BC8120D5262EF46E3DCE913 /* Pods_AZURest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZURest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0419E51FAF57707B471222FB /* Pods_AZURest_AZURestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZURest_AZURestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		287A52F16E47A7DB558C01CB /* Pods-AZURest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest.debug.xcconfig"; path = "Target Support Files/Pods-AZURest/Pods-AZURest.debug.xcconfig"; sourceTree = "<group>"; };
+		28BEB3EDB5FDC90B3D605A84 /* Pods-AZURest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest.release.xcconfig"; path = "Target Support Files/Pods-AZURest/Pods-AZURest.release.xcconfig"; sourceTree = "<group>"; };
+		3182DBE539FC3571F3975B92 /* Pods-AZURest-AZURestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest-AZURestTests.debug.xcconfig"; path = "Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56AEE000164293F006434E65 /* Pods-AZURest-AZURestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest-AZURestTests.release.xcconfig"; path = "Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests.release.xcconfig"; sourceTree = "<group>"; };
 		871430B32A849C22007C1023 /* AZURest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZURest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		871430B62A849C22007C1023 /* AZURest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZURest.h; sourceTree = "<group>"; };
 		871430B72A849C22007C1023 /* AZURest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AZURest.docc; sourceTree = "<group>"; };
 		871430BD2A849C22007C1023 /* AZURestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZURestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		871430C22A849C22007C1023 /* AZURestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZURestTests.swift; sourceTree = "<group>"; };
+		872129592A84C78100CFCFAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87404FFF2A849F8700B4D7E7 /* AZURest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZURest.swift; sourceTree = "<group>"; };
 		874050012A849FA600B4D7E7 /* AZURestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZURestError.swift; sourceTree = "<group>"; };
-		BF2F6FA2297CBDE594059642 /* Pods-AZURest-AZURestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest-AZURestTests.debug.xcconfig"; path = "Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB247AEF873B64420FFB8BB6 /* Pods-AZURest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest.debug.xcconfig"; path = "Target Support Files/Pods-AZURest/Pods-AZURest.debug.xcconfig"; sourceTree = "<group>"; };
-		F2B31615FE5BB16D403F1FC0 /* Pods-AZURest-AZURestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest-AZURestTests.release.xcconfig"; path = "Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8765C4AB2A84C71B007606F9 /* AZURestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZURestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8765C4AD2A84C71B007606F9 /* AZURestExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZURestExampleApp.swift; sourceTree = "<group>"; };
+		8765C4AF2A84C71B007606F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8765C4B12A84C71E007606F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8765C4B42A84C71E007606F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0A70AD86FE2813F11BF919A /* Pods_AZURest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZURest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0650D1133BF20494E3BC1B /* Pods_AZURest.framework in Frameworks */,
+				B87C8B770BA22DACC9E75A30 /* Pods_AZURest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +68,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				871430BE2A849C22007C1023 /* AZURest.framework in Frameworks */,
-				E13DD94C82FB8E6F5D04FA38 /* Pods_AZURest_AZURestTests.framework in Frameworks */,
+				DEAC12EB44494FBB9921FBE5 /* Pods_AZURest_AZURestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8765C4A82A84C71B007606F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +85,21 @@
 		35286DC253102C9C8343EEF5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EB247AEF873B64420FFB8BB6 /* Pods-AZURest.debug.xcconfig */,
-				4C318C5D656D23F47761AB9E /* Pods-AZURest.release.xcconfig */,
-				BF2F6FA2297CBDE594059642 /* Pods-AZURest-AZURestTests.debug.xcconfig */,
-				F2B31615FE5BB16D403F1FC0 /* Pods-AZURest-AZURestTests.release.xcconfig */,
+				287A52F16E47A7DB558C01CB /* Pods-AZURest.debug.xcconfig */,
+				28BEB3EDB5FDC90B3D605A84 /* Pods-AZURest.release.xcconfig */,
+				3182DBE539FC3571F3975B92 /* Pods-AZURest-AZURestTests.debug.xcconfig */,
+				56AEE000164293F006434E65 /* Pods-AZURest-AZURestTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		48B8648B63EE8EB9C4507C6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A70AD86FE2813F11BF919A /* Pods_AZURest.framework */,
+				0419E51FAF57707B471222FB /* Pods_AZURest_AZURestTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		871430A92A849C22007C1023 = {
@@ -80,9 +107,10 @@
 			children = (
 				871430B52A849C22007C1023 /* AZURest */,
 				871430C12A849C22007C1023 /* AZURestTests */,
+				8765C4AC2A84C71B007606F9 /* AZURestExample */,
 				871430B42A849C22007C1023 /* Products */,
 				35286DC253102C9C8343EEF5 /* Pods */,
-				C1340C968E287EBDD5FEC1C0 /* Frameworks */,
+				48B8648B63EE8EB9C4507C6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +119,7 @@
 			children = (
 				871430B32A849C22007C1023 /* AZURest.framework */,
 				871430BD2A849C22007C1023 /* AZURestTests.xctest */,
+				8765C4AB2A84C71B007606F9 /* AZURestExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,13 +151,24 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		C1340C968E287EBDD5FEC1C0 /* Frameworks */ = {
+		8765C4AC2A84C71B007606F9 /* AZURestExample */ = {
 			isa = PBXGroup;
 			children = (
-				7BC8120D5262EF46E3DCE913 /* Pods_AZURest.framework */,
-				4105FDD4D7043ED79E987F2F /* Pods_AZURest_AZURestTests.framework */,
+				8765C4AD2A84C71B007606F9 /* AZURestExampleApp.swift */,
+				8765C4AF2A84C71B007606F9 /* ContentView.swift */,
+				8765C4B12A84C71E007606F9 /* Assets.xcassets */,
+				8765C4B32A84C71E007606F9 /* Preview Content */,
+				872129592A84C78100CFCFAF /* ViewController.swift */,
 			);
-			name = Frameworks;
+			path = AZURestExample;
+			sourceTree = "<group>";
+		};
+		8765C4B32A84C71E007606F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8765C4B42A84C71E007606F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 871430C72A849C22007C1023 /* Build configuration list for PBXNativeTarget "AZURest" */;
 			buildPhases = (
-				6AC9AF9D36A65A7C71E41DDF /* [CP] Check Pods Manifest.lock */,
+				4D6504F1D0D64CF9FF8C1EEC /* [CP] Check Pods Manifest.lock */,
 				871430AE2A849C22007C1023 /* Headers */,
 				871430AF2A849C22007C1023 /* Sources */,
 				871430B02A849C22007C1023 /* Frameworks */,
@@ -168,11 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 871430CA2A849C22007C1023 /* Build configuration list for PBXNativeTarget "AZURestTests" */;
 			buildPhases = (
-				646796357C15A8DF75F5E0C0 /* [CP] Check Pods Manifest.lock */,
+				AD1D1C5EAEF68131C448C254 /* [CP] Check Pods Manifest.lock */,
 				871430B92A849C22007C1023 /* Sources */,
 				871430BA2A849C22007C1023 /* Frameworks */,
 				871430BB2A849C22007C1023 /* Resources */,
-				4CFA7EA87B2A8AE716B76117 /* [CP] Embed Pods Frameworks */,
+				21C5559963A02322B8BAFC31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,6 +223,23 @@
 			productName = AZURestTests;
 			productReference = 871430BD2A849C22007C1023 /* AZURestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8765C4AA2A84C71B007606F9 /* AZURestExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8765C4B62A84C71E007606F9 /* Build configuration list for PBXNativeTarget "AZURestExample" */;
+			buildPhases = (
+				8765C4A72A84C71B007606F9 /* Sources */,
+				8765C4A82A84C71B007606F9 /* Frameworks */,
+				8765C4A92A84C71B007606F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZURestExample;
+			productName = AZURestExample;
+			productReference = 8765C4AB2A84C71B007606F9 /* AZURestExample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,6 +255,9 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					871430BC2A849C22007C1023 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8765C4AA2A84C71B007606F9 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -217,6 +277,7 @@
 			targets = (
 				871430B22A849C22007C1023 /* AZURest */,
 				871430BC2A849C22007C1023 /* AZURestTests */,
+				8765C4AA2A84C71B007606F9 /* AZURestExample */,
 			);
 		};
 /* End PBXProject section */
@@ -236,10 +297,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8765C4A92A84C71B007606F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8765C4B52A84C71E007606F9 /* Preview Assets.xcassets in Resources */,
+				8765C4B22A84C71E007606F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4CFA7EA87B2A8AE716B76117 /* [CP] Embed Pods Frameworks */ = {
+		21C5559963A02322B8BAFC31 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,29 +326,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		646796357C15A8DF75F5E0C0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AZURest-AZURestTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6AC9AF9D36A65A7C71E41DDF /* [CP] Check Pods Manifest.lock */ = {
+		4D6504F1D0D64CF9FF8C1EEC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,6 +342,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AZURest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1D1C5EAEF68131C448C254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZURest-AZURestTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -318,6 +388,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				871430C32A849C22007C1023 /* AZURestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8765C4A72A84C71B007606F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8721295A2A84C78100CFCFAF /* ViewController.swift in Sources */,
+				8765C4B02A84C71B007606F9 /* ContentView.swift in Sources */,
+				8765C4AE2A84C71B007606F9 /* AZURestExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +539,7 @@
 		};
 		871430C82A849C22007C1023 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB247AEF873B64420FFB8BB6 /* Pods-AZURest.debug.xcconfig */;
+			baseConfigurationReference = 287A52F16E47A7DB558C01CB /* Pods-AZURest.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -471,6 +551,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,7 +571,7 @@
 		};
 		871430C92A849C22007C1023 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C318C5D656D23F47761AB9E /* Pods-AZURest.release.xcconfig */;
+			baseConfigurationReference = 28BEB3EDB5FDC90B3D605A84 /* Pods-AZURest.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -502,6 +583,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,12 +603,13 @@
 		};
 		871430CB2A849C22007C1023 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2F6FA2297CBDE594059642 /* Pods-AZURest-AZURestTests.debug.xcconfig */;
+			baseConfigurationReference = 3182DBE539FC3571F3975B92 /* Pods-AZURest-AZURestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = azzam.AZURestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,16 +621,75 @@
 		};
 		871430CC2A849C22007C1023 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2B31615FE5BB16D403F1FC0 /* Pods-AZURest-AZURestTests.release.xcconfig */;
+			baseConfigurationReference = 56AEE000164293F006434E65 /* Pods-AZURest-AZURestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = azzam.AZURestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8765C4B72A84C71E007606F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AZURestExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azzam.AZURestExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8765C4B82A84C71E007606F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AZURestExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azzam.AZURestExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -579,6 +721,15 @@
 			buildConfigurations = (
 				871430CB2A849C22007C1023 /* Debug */,
 				871430CC2A849C22007C1023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8765C4B62A84C71E007606F9 /* Build configuration list for PBXNativeTarget "AZURestExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8765C4B72A84C71E007606F9 /* Debug */,
+				8765C4B82A84C71E007606F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

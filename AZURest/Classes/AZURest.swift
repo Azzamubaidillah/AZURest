@@ -13,7 +13,7 @@ public class AZURest
 {
     public static func runRequest(urlRequest : URLRequest, jsonValidation : ((JSON) -> (AZURestError?))? = nil, callback : @escaping (AZURestError?, JSON?) -> ()) -> DataRequest
     {
-        var req = request(urlRequest).responseJSON { response in
+        var req = AF.request(urlRequest).responseJSON { response in
             var json : JSON?
             var err : AZURestError?
             switch response.result {
