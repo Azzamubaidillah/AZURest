@@ -1,0 +1,6 @@
+framework module Pods_AZURest_AZURestTests {
+  umbrella header "Pods-AZURest-AZURestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

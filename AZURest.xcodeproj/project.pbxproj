@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0650D1133BF20494E3BC1B /* Pods_AZURest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC8120D5262EF46E3DCE913 /* Pods_AZURest.framework */; };
 		871430B82A849C22007C1023 /* AZURest.docc in Sources */ = {isa = PBXBuildFile; fileRef = 871430B72A849C22007C1023 /* AZURest.docc */; };
 		871430BE2A849C22007C1023 /* AZURest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871430B32A849C22007C1023 /* AZURest.framework */; };
 		871430C32A849C22007C1023 /* AZURestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871430C22A849C22007C1023 /* AZURestTests.swift */; };
 		871430C42A849C22007C1023 /* AZURest.h in Headers */ = {isa = PBXBuildFile; fileRef = 871430B62A849C22007C1023 /* AZURest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E13DD94C82FB8E6F5D04FA38 /* Pods_AZURest_AZURestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4105FDD4D7043ED79E987F2F /* Pods_AZURest_AZURestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +26,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4105FDD4D7043ED79E987F2F /* Pods_AZURest_AZURestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZURest_AZURestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C318C5D656D23F47761AB9E /* Pods-AZURest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest.release.xcconfig"; path = "Target Support Files/Pods-AZURest/Pods-AZURest.release.xcconfig"; sourceTree = "<group>"; };
+		7BC8120D5262EF46E3DCE913 /* Pods_AZURest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZURest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		871430B32A849C22007C1023 /* AZURest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZURest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		871430B62A849C22007C1023 /* AZURest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZURest.h; sourceTree = "<group>"; };
 		871430B72A849C22007C1023 /* AZURest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AZURest.docc; sourceTree = "<group>"; };
 		871430BD2A849C22007C1023 /* AZURestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZURestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		871430C22A849C22007C1023 /* AZURestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZURestTests.swift; sourceTree = "<group>"; };
+		BF2F6FA2297CBDE594059642 /* Pods-AZURest-AZURestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest-AZURestTests.debug.xcconfig"; path = "Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB247AEF873B64420FFB8BB6 /* Pods-AZURest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest.debug.xcconfig"; path = "Target Support Files/Pods-AZURest/Pods-AZURest.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B31615FE5BB16D403F1FC0 /* Pods-AZURest-AZURestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZURest-AZURestTests.release.xcconfig"; path = "Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0650D1133BF20494E3BC1B /* Pods_AZURest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				871430BE2A849C22007C1023 /* AZURest.framework in Frameworks */,
+				E13DD94C82FB8E6F5D04FA38 /* Pods_AZURest_AZURestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35286DC253102C9C8343EEF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB247AEF873B64420FFB8BB6 /* Pods-AZURest.debug.xcconfig */,
+				4C318C5D656D23F47761AB9E /* Pods-AZURest.release.xcconfig */,
+				BF2F6FA2297CBDE594059642 /* Pods-AZURest-AZURestTests.debug.xcconfig */,
+				F2B31615FE5BB16D403F1FC0 /* Pods-AZURest-AZURestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		871430A92A849C22007C1023 = {
 			isa = PBXGroup;
 			children = (
 				871430B52A849C22007C1023 /* AZURest */,
 				871430C12A849C22007C1023 /* AZURestTests */,
 				871430B42A849C22007C1023 /* Products */,
+				35286DC253102C9C8343EEF5 /* Pods */,
+				C1340C968E287EBDD5FEC1C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +117,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		C1340C968E287EBDD5FEC1C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC8120D5262EF46E3DCE913 /* Pods_AZURest.framework */,
+				4105FDD4D7043ED79E987F2F /* Pods_AZURest_AZURestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -111,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 871430C72A849C22007C1023 /* Build configuration list for PBXNativeTarget "AZURest" */;
 			buildPhases = (
+				6AC9AF9D36A65A7C71E41DDF /* [CP] Check Pods Manifest.lock */,
 				871430AE2A849C22007C1023 /* Headers */,
 				871430AF2A849C22007C1023 /* Sources */,
 				871430B02A849C22007C1023 /* Frameworks */,
@@ -129,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 871430CA2A849C22007C1023 /* Build configuration list for PBXNativeTarget "AZURestTests" */;
 			buildPhases = (
+				646796357C15A8DF75F5E0C0 /* [CP] Check Pods Manifest.lock */,
 				871430B92A849C22007C1023 /* Sources */,
 				871430BA2A849C22007C1023 /* Frameworks */,
 				871430BB2A849C22007C1023 /* Resources */,
+				4CFA7EA87B2A8AE716B76117 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +232,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CFA7EA87B2A8AE716B76117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AZURest-AZURestTests/Pods-AZURest-AZURestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		646796357C15A8DF75F5E0C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZURest-AZURestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC9AF9D36A65A7C71E41DDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AZURest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		871430AF2A849C22007C1023 /* Sources */ = {
@@ -352,6 +452,7 @@
 		};
 		871430C82A849C22007C1023 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB247AEF873B64420FFB8BB6 /* Pods-AZURest.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -382,6 +483,7 @@
 		};
 		871430C92A849C22007C1023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C318C5D656D23F47761AB9E /* Pods-AZURest.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -412,6 +514,7 @@
 		};
 		871430CB2A849C22007C1023 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2F6FA2297CBDE594059642 /* Pods-AZURest-AZURestTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -427,6 +530,7 @@
 		};
 		871430CC2A849C22007C1023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B31615FE5BB16D403F1FC0 /* Pods-AZURest-AZURestTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
